@@ -5,7 +5,7 @@ GET http://localhost:3000/orders/16469c94-4678-40b3-a605-19cc78935304
 
 ###
 POST http://localhost:3000/orders
-Content-Typer: application/json
+Content-Typer: application/json; charset=utf-8
 
 {
     "amount" : 100
@@ -13,7 +13,7 @@ Content-Typer: application/json
 
 ###
 PATCH http://localhost:3001/orders/16469c94-4678-40b3-a605-19cc78935304
-Content-Typer: application/json
+Content-Typer: application/json; charset=utf-8
 
 {
     "amount" : 115
