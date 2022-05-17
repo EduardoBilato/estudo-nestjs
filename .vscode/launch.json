@@ -3,6 +3,7 @@
     "configurations": [
         {
             "type": "node",
+            "runtimeVersion": "14.18.1",
             "request": "launch",
             "name": "Debug Nest Framework",
             "args": [
